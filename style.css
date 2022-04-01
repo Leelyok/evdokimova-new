@@ -852,6 +852,12 @@ a.bg-image {
   margin-bottom: -5rem;
 }
 
+.quote2 {
+  object-fit: contain;
+  object-position: center;
+  height: 10vh;
+}
+
 .small-img img {  max-width: 30%;}
 
 .bg-img {  background-image: url(/images/evdokimova-st.jpg);}
