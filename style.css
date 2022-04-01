@@ -1486,7 +1486,7 @@ figure:nth-child(8) {
     
 
     .upper { font-size: 0.9rem; }
-    .text-big { font-size: 2.5rem; }
+    .text-big { font-size: 2rem; }
 
     .horizontal-scroll {
         overflow-x: auto;
