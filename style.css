@@ -1469,6 +1469,7 @@ figure:nth-child(8) {
     }
     
     .small-img img {  max-width: 70%;}
+    .tags {      font-size: 1rem;      }
   }
 
 /* SM - max-width in pixels approximately 768px */
