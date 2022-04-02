@@ -46,6 +46,7 @@ img { max-width: 100%; }
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
 .padded-6  { padding: 6rem;  }
+.padded-8  { padding: 8rem;  }
 .padded-10  { padding: 10rem;  }
 .padded-20  { padding: 20rem;  }
 
@@ -325,6 +326,18 @@ a:hover { color: #a2745c; }
     letter-spacing: 0.1rem;
   }
 
+  .button-menu {
+    padding: 3% 5%;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    background-color: #b1a690;
+    font-weight: 600;
+    font-size: 1rem;
+    -webkit-appearance: none;
+    text-align: center;
+  }
+
 .lower {
     text-transform: lowercase;
     font-weight: 300;
@@ -360,7 +373,11 @@ footer {
   letter-spacing: .05rem;
 }
 
-
+.insta-menu {
+  background-color: #FAF9F6;
+  min-height: 100vh;
+  text-align: center;
+}
 
 /*  Mobile Menu Styles  */
 
