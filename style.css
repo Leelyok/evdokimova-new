@@ -1417,6 +1417,7 @@ figure:nth-child(8) {
     h1 { font-size: 2.5rem;}
     h2 { font-size: 1.7rem;}
     h3 { font-size: 1.3rem;}
+    h4 { font-size: 1.1rem;}
     p {  font-size: 0.9rem;}
 
     .text-big { font-size: 2.5rem; }
@@ -1453,6 +1454,7 @@ figure:nth-child(8) {
       }
 
     .logo {  top: 0%;      }
+    .card2 h3 {      font-size: 1.4rem;    }
 
      .m-l-m4  {  margin-left: 3rem;}
      .md-padded-2 { padding: 2%;}
@@ -1466,6 +1468,7 @@ figure:nth-child(8) {
       margin-bottom: -3rem;
     }
     
+    .small-img img {  max-width: 70%;}
   }
 
 /* SM - max-width in pixels approximately 768px */
@@ -1484,6 +1487,7 @@ figure:nth-child(8) {
     h2 { font-size: 1.4rem;}
     h3 { font-size: 1.3rem;}
     
+    footer a {  font-size: 0.8rem;}
 
     .upper { font-size: 0.9rem; }
     .text-big { font-size: 2rem; }
@@ -1514,6 +1518,7 @@ figure:nth-child(8) {
         padding-left: 0;
         padding-right: 0;
       }
+      .card2 h3 {      font-size: 1.2rem;    }
 
       .logo-img {
         top: 0;
@@ -1581,6 +1586,7 @@ figure:nth-child(8) {
     h1 { font-size: 1.3rem;}
 
     h3 { font-size: 1.1rem;}
+    h4 {  font-size: 1rem;}
 
     .slider-item p { font-size: 1rem;}
     
