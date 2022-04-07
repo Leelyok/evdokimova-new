@@ -124,7 +124,7 @@ img { max-width: 100%; }
 
 .title-text {
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   position: relative;
@@ -224,7 +224,7 @@ p:last-child {
     margin-bottom:0;
 }
 
-.text-big {  font-size: 3rem;}
+.text-big {  font-size: 2.5rem;}
 .text-bold  { font-weight: bold;}
 .text-normal  { font-weight: normal;}
 .text-small {   font-size: 0.7rem;}
