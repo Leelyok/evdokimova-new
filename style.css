@@ -25,6 +25,7 @@ body {
     width: 100vw;
     background-color: #EBE8E9;
     font-family: 'Source Serif Pro', serif;
+    overflow-x: hidden;
 }
 
 img { max-width: 100%; }
