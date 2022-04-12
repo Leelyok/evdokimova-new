@@ -15,7 +15,7 @@ body { border: none;}
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 body {
