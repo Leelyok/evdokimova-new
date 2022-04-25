@@ -29,6 +29,7 @@ body {
 
 img { max-width: 100%; }
 
+
 /*   Universal styles   */
 
 .tall-50 { min-height: 50vh; }
@@ -82,6 +83,7 @@ img { max-width: 100%; }
 .margin-t-m7 { margin-top: -7rem; }
 .margin-t-m1 { margin-top: -1rem; }
 .m-t-m10 {  margin-top: -10rem;}
+.m-t-m20 {  margin-top: -20rem;}
 .m-l-m7  {  margin-left: -7rem;}
 .m-l-m4  {  margin-left: -4rem;}
 
@@ -923,7 +925,7 @@ a.bg-image {
 }
 
 .bg-maria {  
-  background-image: url(/images/evdokimova-m.jpg);
+  background-image: url(/images/maria-evdokimova.jpg);
   background-position: 50% 15%;
   border: 50px solid #ffffff;
   padding-bottom: 33%;
