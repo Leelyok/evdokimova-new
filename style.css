@@ -124,6 +124,17 @@ img { max-width: 100%; }
 .right  { text-align: right; }
 .justify { text-align: justify;}
 
+.italics {
+  font-style: italic;
+}
+
+.quote1 {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display SC', serif;
+  text-transform: none;
+  line-height: 0.9;
+}
+
 .title-text {
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.5rem;
@@ -1586,6 +1597,10 @@ figure:nth-child(8) {
         margin-bottom: -1rem;
       }
 
+      .quote1 {
+        font-size: 1.5rem;
+      }
+
       .slider-item p { font-size: 1rem;}
 
       .campaign-section {
@@ -1624,7 +1639,13 @@ figure:nth-child(8) {
         margin: 0;
       }
 
+      .bg-maria {
+        border: 10px solid #ffffff;
+        padding-bottom: 55%;
+      }
     }
+
+  
 
     @media(min-width:768px) {
       .d-p-b-3 {
