@@ -227,7 +227,7 @@ p, li  {
  font-weight: 300;   
  line-height: 1.4;
  margin-bottom: 0.8rem;
- font-size: 1.05rem;
+ font-size: 13pt;
 }
 
 /* this makes sure that the last element in any container doesn't have margin-bottom */
@@ -1481,7 +1481,6 @@ figure:nth-child(8) {
     h2 { font-size: 1.7rem;}
     h3 { font-size: 1.3rem;}
     h4 { font-size: 1.1rem;}
-    p {  font-size: 0.9rem;}
 
     .text-big { font-size: 2.5rem; }
 
@@ -1554,7 +1553,7 @@ figure:nth-child(8) {
     
     footer a {  font-size: 0.8rem;}
 
-    .upper { font-size: 0.9rem; }
+   
     .text-big { font-size: 2rem; }
 
     .horizontal-scroll {
