@@ -21,7 +21,6 @@ html {
 body {
     font-weight: 300;
     color: black;
-    overflow-x: hidden;
     width: 100vw;
     background-color: #EBE8E9;
     font-family: 'Source Serif Pro', serif;
