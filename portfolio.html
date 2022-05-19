@@ -1,6 +1,44 @@
 ---
 layout: default
 title: Мария Евдокимова Стилист И Трендвотчер
+portfolio:
+ - project-link: /projects/vostok
+   project_image: /images/art-3.jpg
+   name: Восток
+   type: Творческий проект
+ - project-link: /projects/kubizm
+   project_image: /images/banner-stilist-evdokimova.jpg
+   name: Кубизм
+   type: Творческий проект
+ - project-link: /projects/kostumi
+   project_image: /images/evdokimova-for-brand.jpg
+   name: Костюмы
+   type: Работа с брендом
+ - project-link: /projects/bubble
+   project_image: /images/model-4.jpg
+   name: Bubble
+   type: Творческий проект
+ - project-link: /projects/content
+   project_image: /images/model-3.jpg
+   name: Для контента
+   type: Персональная съемка
+ - project-link: /projects/art
+   project_image: /images/model-2.jpg
+   name: Art
+   type: Творческий проект
+ - project-link: /projects/bags
+   project_image: /images/model-1.jpg
+   name: Сумки
+   type: Работа с брендом
+ - project-link: /projects/streetstyle
+   project_image: /images/art-workshop.jpg
+   name: Street Style
+   type: Работа с брендом
+ - project-link: /projects/redline
+   project_image: /images/Aleynikova_1.jpg
+   name: Красная нить
+   type: Творческий проект
+   
 ---
 
 <!--------------HEADER----------------->
@@ -21,56 +59,20 @@ title: Мария Евдокимова Стилист И Трендвотчер
 <!--- Cards---->
 <section class="grid-spaceBetween padded flex-flip-sm">
     <div class="col-8_sm-12">
-        <div class="grid mob-horizontal-scroll" data-aos="fade-up" data-aos-duration="2000">
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/vostok">
-                <div class="bg-image" style="background-image: url('/images/art-3.jpg')"></div>
-                <h2> Восток </h2>
-                <p> Творческий проект </p>
+        <div class="grid-center mob-horizontal-scroll" data-aos="fade-up" data-aos-duration="2000">
+
+          {% for item in page.portfolio %}
+            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="{{item.project-link}}">
+                <div class="bg-image" style="background-image: url('{{item.project_image}}')"></div>
+                <h2> {{item.name}} </h2>
+                <p> {{item.type}} </p>
             </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/kubizm">
-                <div class="bg-image" style="background-image: url('/images/banner-stilist-evdokimova.jpg');"></div>
-                <h2> Кубизм </h2>
-                <p> Творческий проект </p>
-            </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/kostumi">
-                <div class="bg-image" style="background-image: url('/images/evdokimova-for-brand.jpg');"></div>
-                <h2> Костюмы </h2>
-                <p> Работа с брендом </p>
-            </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/bubble">
-                <div class="bg-image" style="background-image: url('/images/model-4.jpg')"></div>
-                <h2> Bubble </h2>
-                <p> Творческий проект </p>
-            </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/content">
-                <div class="bg-image" style="background-image: url('/images/model-3.jpg');"></div>
-                <h2> Для контента </h2>
-                <p> Персональная съемка </p>
-            </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/art">
-                <div class="bg-image" style="background-image: url('/images/model-2.jpg');"></div>
-                <h2> Art </h2>
-                <p> Творческий проект </p>
-            </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/bags">
-                <div class="bg-image" style="background-image: url('/images/model-1.jpg')"></div>
-                <h2> Сумки </h2>
-                <p> Работа с брендом </p>
-            </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/streetstyle">
-                <div class="bg-image" style="background-image: url('/images/art-workshop.jpg');"></div>
-                <h2> Street Style </h2>
-                <p> Работа с брендом </p>
-            </a>
-            <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="/projects/redline">
-                <div class="bg-image" style="background-image: url('/images/Aleynikova_1.jpg');"></div>
-                <h2> Красная нить </h2>
-                <p> Творческий проект </p>
-            </a>
+          {% endfor %}
+
         </div>
     </div>
     <div class="col-3_sm-12-top border-left sticky-top">
-        <div class="sticky-top padded-2" data-aos="fade-up" data-aos-duration="2000">
+        <div class="sticky-top padded-2 editable" data-aos="fade-up" data-aos-duration="2000">
             <p>
                 Мне посчастливилось работать со многими невероятными брендами, рассказывая их уникальную историю. Я обожаю творчество и индивидуальность каждого, у меня нет одного определенного стиля, если у вас есть свое видение, давайте работать вместе, чтобы создать что-то уникальное.
             </p>
