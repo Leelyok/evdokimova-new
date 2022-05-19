@@ -1432,8 +1432,14 @@ display: flex;
     
     footer a {  font-size: 0.8rem;}
 
+    html {
+      overflow-x: hidden;
+    }
    
     .text-big { font-size: 2rem; }
+    .sticky-top {
+      position: static;
+    }
 
     .horizontal-scroll {
         overflow-x: auto;
