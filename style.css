@@ -926,32 +926,12 @@ a.bg-image {
 }
 
 .bg-maria {  
-  background-image: url(/images/maria-evdokimova.jpg);
   background-position: 50% 15%;
   border: 50px solid #ffffff;
   padding-bottom: 33%;
 }
 
 .bg-revizia {
-  background-image: url(/images/revizia-garderoba.jpg);
-  background-size: cover;
-  background-position: top;
-}
-
-.bg-shopping {
-  background-image: url(/images/look-of-the-day.jpg);
-  background-size: cover;
-  background-position: top;
-}
-
-.bg-dress {
-  background-image: url(/images/black-dress.jpg);
-  background-size: cover;
-  background-position: top;
-}
-
-.bg-style {
-  background-image: url(/images/style-brand.jpg);
   background-size: cover;
   background-position: top;
 }
