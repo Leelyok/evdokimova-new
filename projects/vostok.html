@@ -1,29 +1,62 @@
 ---
 layout: default
 title: Проект Восток Портфолио Марии Евдокимовой
+gallery:
+ - column-size: col-one-third
+   aspect-ratio: one-third
+   background_image: /images/art-1.jpg
+ - column-size: col-one-third
+   aspect-ratio: one-third
+   background_image: /images/art-2.jpg
+ - column-size: col-one-third
+   aspect-ratio: one-third
+   background_image: /images/art-3.jpg
+ - column-size: col-one-half
+   aspect-ratio: one-half
+   background_image: /images/art-4.jpg
+ - column-size: col-one-half
+   aspect-ratio: one-half
+   background_image: /images/art-5.jpg
+ - column-size: col-one-third
+   aspect-ratio: one-third
+   background_image: /images/art-6.jpg
+ - column-size: col-one-third
+   aspect-ratio: one-third
+   background_image: /images/art-7.jpg
+ - column-size: col-one-third
+   aspect-ratio: one-third
+   background_image: /images/art-8.jpg
 ---
 
 <!--------------HEADER----------------->
 {% include header-nav.html %}
 
 <section class="grid padded-10pr capped-width">
-    <div class="col-6_sm-12" data-aos="fade-up" data-aos-duration="2000">
+    <div class="col-6_sm-12 editable" data-aos="fade-up" data-aos-duration="2000">
         <div class="bg-image square" style="background-image: url('/images/art-5.jpg');"></div>
         <p class="image-caption-left"> Творческий проект, коллаборация, Санкт-Петербург</p>
     </div>
-    <div class="col-6_sm-12 padded title-container relative" data-aos="fade-up" data-aos-duration="2000">
+    <div class="col-6_sm-12 padded title-container relative editable" data-aos="fade-up" data-aos-duration="2000">
         <h1 class="big-bold vertical-text1"> Творчество.</h1>
     </div>
-    <div class="col-6_sm-12 padded-t-2" data-aos="fade-up" data-aos-duration="2000">
+    <div class="col-6_sm-12 padded-t-2 editable" data-aos="fade-up" data-aos-duration="2000">
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br> Eveniet nobis sapiente consequuntur quidem rem, tempore quod accusamus autem doloremque quisquam amet ullam itaque culpa natus, ea facilis eligendi dolore consequatur?</p>
     </div>
 </section>
 
 <!--------------GALLEY------------->
 <section class="project-gallery padded center capped-width" id="lightgallery">
-        <a class="col-one-third padded-05" href="/images/art-1.jpg">
-            <div class="bg-image one-third" style="background-image: url('/images/art-1.jpg');">    </div>
+
+        {% for item in page.gallery %}
+        <a class="{{item.column-size}} padded-05" href="{{item.background_image}}">
+            <div class="bg-image {{item.aspect-ratio}}" 
+                 style="background-image: url('{{item.background_image}}');">    
+            </div>
         </a> 
+        {% endfor %}
+
+
+        <!------------
         <a class="col-one-third padded-05" href="/images/art-2.jpg">
             <div class="bg-image one-third" style="background-image: url('/images/art-2.jpg');">    </div>
         </a>
@@ -45,6 +78,7 @@ title: Проект Восток Портфолио Марии Евдокимо�
         <a class="col-two-thirds padded-05" href="/images/art-8.jpg">
             <div class="bg-image two-thirds" style="background-image: url('/images/art-8.jpg');">    </div>
         </a>       
+        ----------->
 </section>
 
 
