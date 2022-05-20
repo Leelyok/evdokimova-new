@@ -1,0 +1,12 @@
+_select_data:
+  aspect-ratios:
+    - one-third
+    - one-half
+    - two-thirds
+    - full-width
+
+  column-sizes:
+    col-one-third: Одна Треть
+    col-one-half: Одна Вторая
+    col-two-thirds: Two Third
+    col-full-width: Full Width
