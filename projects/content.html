@@ -29,9 +29,6 @@ gallery:
    background_image: /images/content-8.jpg
 ---
 
-<!--------------HEADER----------------->
-{% include header-nav.html %}
-
 <section class="grid padded-10pr capped-width">
     <div class="col-6_sm-12" data-aos="fade-up" data-aos-duration="2000">
         <div class="bg-image square" style="background-image: url('{{page.gallery_image}}');"></div>
@@ -45,7 +42,7 @@ gallery:
     </div>
 </section>
 
-<!--------------GALLEY------------->
+<!--------------GALLERY------------->
 <section class="project-gallery padded center capped-width" id="lightgallery">
 
     {% for item in page.gallery %}
@@ -59,79 +56,4 @@ gallery:
 </section>
 
 
-<!------------RELATIVE PROJECTS----------------->
-<section class="v-light-bg padded-2 related-projects">
-    <h4 class="center subtle-heading"> ДРУГИЕ ПРОЕКТЫ </h4>
-    <div class="mob-horizontal-scroll grid" data-aos="fade-up" data-aos-duration="2000">
-        <a class="col-3_xs-10 padded-1 center" href="/projects/kubizm">
-            <div class="bg-image square" style="background-image: url(/images/banner-stilist-evdokimova.jpg);"></div>
-            <h3 class="margin-top-1"> Кубизм </h3>
-        </a>
-        <a class="col-3_xs-10 padded-1 center" href="/projects/bubble">
-            <div class="bg-image square" style="background-image: url(/images/model-4.jpg);"></div>
-            <h3 class="margin-top-1"> Bubble </h3>
-        </a>
-        <a class="col-3_xs-10 padded-1 center" href="/projects/streetstyle">
-            <div class="bg-image square" style="background-image: url(/images/art-workshop.jpg);"></div>
-            <h3 class="margin-top-1"> Street Style </h3>
-        </a>
-        <a class="col-3_xs-10 padded-1 center" href="/projects/redline">
-            <div class="bg-image square" style="background-image: url(/images/Aleynikova_1.jpg);"></div>
-            <h3 class="margin-top-1"> Красная нить </h3>
-        </a>
-    </div>
-</section>
-
-<!-----Footer -------->         
-<footer class="padded padded-b-0 grid-bottom-center center bg-footer text-dark" id="contact">
-
-    <!-- column -->
-    <div class="col-6_sm-12-middle left small-img hide-md">
-      <a href="/index">
-        <img src="/images/logo-main.png">
-      </a>
-    </div>
-   
-    <!-- column -->
-    <div class="col-6_sm-12-middle right">
-      <nav class="inline">
-        <a href="/"> Главная </a>|
-        <a href="/portfolio"> Портфолио </a>|
-        <a href="/services"> Услуги </a>|
-        <a href="/index#contact"> Контакты </a>
-      </nav>
-      <nav class="inline socials">
-        <a href="https://t.me/+iLoeJMgA4XA0ZmZi" target="_blank">
-          <i class="fa-brands fa-telegram"></i>
-        </a>
-        <a href="https://vk.com/evdokimova.stylist" target="_blank">
-          <i class="fa-brands fa-vk"></i>
-        </a>
-      </nav>
-    
-    </div>
-    <div class="col-10_sm-12-bottom">
-      <p class="center small-footer"> Copyright Maria Evdokimova 2022. Website by <a class="small-footer" href="https://klevercreative.ru/home" target="_blank"> Klever Studio </a>
-    </p>
-    </div>
-    
-  </footer>
-
-      <!-------Add jQuery script-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <!------Slick slider-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <!-----our animate scroll-->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-        <!-- Lightgallery for pop-ups  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js"></script>
-
-        <!-----our custom Javascript file------>
-        <script src="/scripts.js"></script>
-
-</body>
-
-</html>
+{% include relative-project.html %}

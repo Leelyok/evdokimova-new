@@ -46,6 +46,7 @@ img { max-width: 100%; }
 .padded-05 { padding: 0.5rem;  }
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
+.padded-2-5  { padding: 2.5rem;  }
 .padded-6  { padding: 6rem;  }
 .padded-8  { padding: 8rem;  }
 .padded-10  { padding: 10rem;  }
@@ -104,6 +105,7 @@ img { max-width: 100%; }
 .bg-light2 { background-color: #f2efea }
 
 .bg-footer { background-color: #E6E0D0;}
+.bg-footer2 { background-color: #c7bec1;}
 .v-light-bg {  background-color: #f8f6f4;}
 
 .text-light { color: #fff; } 
