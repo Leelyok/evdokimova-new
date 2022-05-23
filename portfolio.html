@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Портфолио Марии Евдокимовой
+main-name: Портфолио.
+portfolio_image: /images/maria-stylist.jpg
+text: Мне посчастливилось работать со многими невероятными брендами, рассказывая их уникальную историю. Я обожаю творчество и индивидуальность каждого, у меня нет одного определенного стиля, если у вас есть свое видение, давайте работать вместе, чтобы создать что-то уникальное.
 portfolio:
  - project-link: /projects/vostok
    project_image: /images/art-3.jpg
@@ -51,9 +54,9 @@ portfolio:
 <!---- Intro Banner---->
 <section class="grid">
     <div class="col-5_sm-3 relative" data-aos="fade-up" data-aos-duration="2000">
-        <h2 class="big-bold portfolio-heading"> Портфолио. </h2>
+        <h2 class="big-bold portfolio-heading"> {{page.main-name}} </h2>
     </div>
-    <div class="col-7_sm-9 bg-image tall-110 portfolio-image bg-portfolio" data-aos="fade-up" data-aos-duration="2000"></div>
+    <div class="col-7_sm-9 bg-image tall-110 portfolio-image" style="background-image: url('{{page.portfolio_image}}') ;" data-aos="fade-up" data-aos-duration="2000"></div>
 </section>
 
 <!--- Cards---->
@@ -72,10 +75,8 @@ portfolio:
         </div>
     </div>
     <div class="col-3_sm-12-top border-left sticky-top">
-        <div class="sticky-top padded-2 editable">
-            <p>
-                Мне посчастливилось работать со многими невероятными брендами, рассказывая их уникальную историю. Я обожаю творчество и индивидуальность каждого, у меня нет одного определенного стиля, если у вас есть свое видение, давайте работать вместе, чтобы создать что-то уникальное.
-            </p>
+        <div class="sticky-top padded-2">
+            <p> {{page.text}}</p>
         </div>
     </div>
 </section>

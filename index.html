@@ -1,20 +1,48 @@
 ---
 layout: beige-footer
 title: Мария Евдокимова Стилист И Трендвотчер
+accesorise_image: /images/accesorise.jpg
+maria_image: /images/stilist-evdokimova.jpg
+street_image: /images/stylist-street.jpg
+second_image: /images/bags.jpg
+banner_image: /images/banner-stilist-evdokimova.jpg
+cards:
+ - link: /myservices/revizia-garderoba
+   pic_image: /images/razbor-garderoba.jpg
+   name: Ревизия <br> гардероба
+ - link: /myservices/shopping-soprovozhdenie
+   pic_image: /images/look-of-the-day.jpg
+   name: Шоппинг <br> сопровождение
+ - link: /myservices/stylizaciya-photosessiy
+   pic_image: /images/podbor-obrazov.jpg
+   name: Стилизация <br> фотосессий
+ - link: /myservices/consultacia-prodvizhenie
+   pic_image: /images/stilist-on-sofa.jpg
+   name: Консультация по <br> продвижению
+portfolio1_image: /images/evdokimova-kubizm.jpg
+portfolio2_image: /images/art-8.jpg
+portfolio3_image: /images/evdokimova-for-brand.jpg
+testimonials:
+ - text: Мария, благодарю за проделанную работу. За такой глубинный анализ и разбор моего бренда. Это тот случай  когда сделала как для себя. Знаю, что даже ночью тебя не покидали мысли о Lemur. Очень доступно донесла свою мысль и всегда была на связи если возникали у меня вопросы! Стало понятно как донести до клиентов наши ценности. Еще раз огромное спасибо!
+   author: Валерия. Бренд одежды Lemur
+ - text: Маша, образы просто бомбические! Сложные сочетания, но всё очень гармонично. Ты талантище!!!
+   author: Вероника Х.
+ - text: Маш, ещё раз спасибо большое, я рада и получила то, что мне нужно! Твоя обратная связь - это любовь. По прошествии времени ко мне стали приходить именно те идеальные клиенты, которых я описывала в анкете. Спасибо тебе за твою работу
+   author: Яна, основательница бренда Stavzefir
 ---
 
 
 <!----section one----->
 <section class="padded grid-left">
-    <div class="col-6_md-9_sm-11 img-one" style="background-image: url(/images/accesorise.jpg);" data-aos="fade-up"></div>
+    <div class="col-6_md-9_sm-11 img-one" style="background-image: url({{page.accesorise_image}});" data-aos="fade-up"></div>
     <img class="logo-img" src="/images/logo-main.png" data-aos="fade-up">
 </section>
 
 <!----section two----->
 <section class="padded grid-right relative">
-    <div class="col-4_md-6_sm-9 img-two" style="background-image: url(/images/stilist-evdokimova.jpg);" data-aos="fade-up" data-aos-duration="2000">
+    <div class="col-4_md-6_sm-9 img-two" style="background-image: url({{page.maria_image}});" data-aos="fade-up" data-aos-duration="2000">
     </div>
-   <div class="col-4_sm-12-top padded-left" data-aos="fade-up">
+   <div class="col-4_sm-12-top padded-left editable" data-aos="fade-up">
        <p class="tags">
         <a href="/myservices/revizia-garderoba">ревизия гардероба/ </a>  <br>
         <a href="/myservices/shopping-soprovozhdenie">шоппинг сопровождение/</a> <br>
@@ -31,7 +59,7 @@ title: Мария Евдокимова Стилист И Трендвотчер
 <!------section forth-->
 
 <section class="padded grid-right relative">
-    <div class="col-4_md-6-right_sm-10-left img-two" style="background-image: url(/images/stylist-street.jpg);" data-aos="fade-up" data-aos-duration="2000">
+    <div class="col-4_md-6-right_sm-10-left img-two" style="background-image: url({{page.street_image}});" data-aos="fade-up" data-aos-duration="2000">
     </div>
    <div class="col-4_sm-12-top padded-left">
    </div>
@@ -40,12 +68,12 @@ title: Мария Евдокимова Стилист И Трендвотчер
 
 <!------section fifth----->
 <section class="padded grid-right relative">
-    <div class="col-4 hide-md" data-aos="fade-up">
+    <div class="col-4 hide-md editable" data-aos="fade-up">
         <p>Люблю помогать людям и чувствую в этом свое призвание, черпаю в этом энергию. Уверена, что мы с вами подружимся=)</p>
         <a class="button-b" href="/portfolio"> Портфолио</a>
     </div>
     <div class="col-2 hide-md"></div>
-    <div class="col-4_md-6 img-two2 img-two-mob" style="background-image: url('/images/bags.jpg');" data-aos="fade-up" data-aos-duration="2500"></div>
+    <div class="col-4_md-6 img-two2 img-two-mob" style="background-image: url('{{page.second_image}}');" data-aos="fade-up" data-aos-duration="2500"></div>
     <div class="col-1 hide-md"></div>
     <img class="right-attached hide-md" src="/images/illustration-line.png"> 
 </section>
@@ -53,7 +81,7 @@ title: Мария Евдокимова Стилист И Трендвотчер
 
 <!----Masha section----->
 <section class="grid-center padded-ntb mob-mt">
-    <div class="col-6_md-10_sm-12 margin-b-2 margin-t-m7" data-aos="fade-up">
+    <div class="col-6_md-10_sm-12 margin-b-2 margin-t-m7 editable" data-aos="fade-up">
         <h2 class="black center cs-title"> ПЕРСОНАЛЬНЫЙ СТИЛИСТ </h2>
         <p class="margin-t-1">
             Я работаю в сфере стилистики более 4 лет и считаю, что одежда - это способ рассказать о себе. Личный стиль всегда индивидуален, поэтому создавать его по чужим шаблонам не имеет смысла. <br> Мой девиз - выбирай вещи с умом, покупай редко, носи долго.
@@ -65,51 +93,21 @@ title: Мария Евдокимова Стилист И Трендвотчер
 <!-----SERVICES------->
 <section class="padded-2">
     <div class="grid padded-1" data-aos="fade-up" data-aos-duration="2000">
+
+      {% for card in page.cards %}
         <div class="col-3_md-6_sm-12 padded-1">
-            <a href="/myservices/revizia-garderoba">
-                <div class="hover-container" style="background-image:url('/images/razbor-garderoba.jpg')">
+            <a href="{{card.link}}">
+                <div class="hover-container" style="background-image:url('{{card.pic_image}}')">
                     <div class="hover-overlay">
                         <div class="hover-inner center">
-                            <h3 class="title-text"> Ревизия <br> гардероба </h3>
+                            <h3 class="title-text">{{card.name}}</h3>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
-        <div class="col-3_md-6_sm-12 padded-1">
-            <a href="/myservices/shopping-soprovozhdenie">
-                <div class="hover-container" style="background-image:url('/images/look-of-the-day.jpg')">
-                    <div class="hover-overlay">
-                      <div class="hover-inner center">
-                        <h3 class="title-text"> Шоппинг <br> сопровождение </h3>
-                      </div>
-                    </div>
-                </div>
-            </a>
-           
-          </div>
-          <div class="col-3_md-6_sm-12 padded-1">
-            <a href="/myservices/stylizaciya-photosessiy">
-                <div class="hover-container" style="background-image:url('/images/podbor-obrazov.jpg')">
-                    <div class="hover-overlay">
-                      <div class="hover-inner center">
-                        <h3 class="title-text"> Стилизация <br> фотосессий </h3>
-                      </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="col-3_md-6_sm-12 padded-1">
-              <a href="/myservices/consultacia-prodvizhenie">
-                  <div class="hover-container" style="background-image:url('/images/stilist-on-sofa.jpg')">
-                    <div class="hover-overlay">
-                        <div class="hover-inner center">
-                            <h3 class="title-text"> Консультация по <br> продвижению </h3>
-                        </div>
-                    </div>
-                  </div>
-              </a>
-            </div>
+        {% endfor %}
+
         </div>
 </section>
 
@@ -117,7 +115,7 @@ title: Мария Евдокимова Стилист И Трендвотчер
 
 <!---TEXT---->
 <section class="padded-10 grid-center">
-    <div class="col-9_sm-12-middle button-tb padded-10 padded-t-0" data-aos="fade-up" data-aos-duration="2000"> 
+    <div class="col-9_sm-12-middle button-tb padded-10 padded-t-0 editable" data-aos="fade-up" data-aos-duration="2000"> 
         <p class="padded"> Маркетинг- новое направление, которое мне интересно. Я могу консультировать по вопросам продвижения, разобрать ваше УТП и ЦА, задать вектор развития, сделать распаковку личности. <a class="button-b1" href="/myservices/consultacia-prodvizhenie"> Узнать больше &#8594;</a> </p>
     </div>
 </section>
@@ -125,7 +123,7 @@ title: Мария Евдокимова Стилист И Трендвотчер
 <!-----BANNER SECTION----->
 
 <section class="bg-split-rose-blue padded-10pr">
-    <div class="bg-image opacity08 wide-landscape" style="background-image:url(/images/banner-stilist-evdokimova.jpg);" data-aos="fade-up" data-aos-duration="2000"></div>
+    <div class="bg-image opacity08 wide-landscape" style="background-image:url({{page.banner_image}});" data-aos="fade-up" data-aos-duration="2000"></div>
 </section>
 
 
@@ -141,7 +139,7 @@ title: Мария Евдокимова Стилист И Трендвотчер
     </div>
     <div class="col-3" data-aos="fade-up" data-aos-duration="2000">
         <a href="/portfolio">
-        <div class="hover-container2 border-05" style="background-image:url('/images/evdokimova-kubizm.jpg')">
+        <div class="hover-container2 border-05" style="background-image:url('{{page.portfolio1_image}}')">
             <div class="hover-overlay2">
               <div class="hover-inner2 center">
                 <h3> Персональная <br> съемка </h3>
@@ -151,7 +149,7 @@ title: Мария Евдокимова Стилист И Трендвотчер
         </a>
 
         <a href="/portfolio">
-            <div class="hover-container2 border-t1" style="background-image:url('/images/art-8.jpg')">
+            <div class="hover-container2 border-t1" style="background-image:url('{{page.portfolio2_image}}')">
                 <div class="hover-overlay2">
                   <div class="hover-inner2 center">
                     <h3> Творческие <br> проекты</h3>
@@ -163,7 +161,7 @@ title: Мария Евдокимова Стилист И Трендвотчер
     <div class="col-5 grid" data-aos="fade-up" data-aos-duration="2000">
         <div class="col-12">
             <a href="/portfolio">
-                <div class="hover-container2 img-position border-05t" style="background-image:url('/images/evdokimova-for-brand.jpg')">
+                <div class="hover-container2 img-position border-05t" style="background-image:url('{{page.portfolio3_image}}')">
                     <div class="hover-overlay3">
                       <div class="hover-inner2 center">
                         <h3> Работа <br> с брендами </h3>
@@ -184,34 +182,20 @@ title: Мария Евдокимова Стилист И Трендвотчер
 <!------Reviews----->
 
 <section class="grid-center padded bg-white">
-    <div class="col-12 center editable" data-aos="fade-up" data-aos-duration="2000">
+    <div class="col-12 center" data-aos="fade-up" data-aos-duration="2000">
         <img class="quote" src="/images/quote.png">
     </div>
     <div class="col-9_md-11_sm-12 center" data-aos="fade-up" data-aos-duration="2000">
-  <div class="testimonial-slider-container testimonial text-dark">
+      <div class="testimonial-slider-container testimonial text-dark">
     <!--------------SLIDE 1---------------->
-    <div class="slider-item">
-      <p> Мария, благодарю за проделанную работу. За такой глубинный анализ и разбор моего бренда. Это тот случай когда сделала как для себя. Знаю, что даже ночью тебя не покидали мысли о Lemur:) Очень доступно донесла свою мысль и всегда была на связи если возникали у меня вопросы! Стало понятно как донести до клиентов наши ценности. Еще раз огромное спасибо!
-         </p>
-      <p class="right author"> - Валерия. Бренд одежды Lemur </p>
-    </div>
-    <!-----------------SLIDE 2--------------->
-    <div class="slider-item">
-       <p> Маша, образы просто бомбические! Сложные сочетания, но всё очень гармонично. Ты талантище!!! </p>
-      <p class="right author"> - Вероника Х.  </p>
-    </div>
-    <!-----------------SLIDE 3--------------->
-    <div class="slider-item">
-      <p> Маш, ещё раз спасибо большое, я рада и получила то, что мне нужно! Твоя обратная связь 🔥❤️ По прошествии времени ко мне стали приходить именно те идеальные клиенты, которых я описывала в анкете. Спасибо тебе за твою работу. </p>
-      <p class="right author"> - Яна, основательница бренда Stavzefir</p>
-    </div>
-    <!-----------------SLIDE 4--------------
-    <div class="slider-item">
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum modi voluptate odit esse soluta, tempora ipsa. Dolor similique aliquam deleniti quo voluptates, distinctio delectus repellendus debitis sint quod labore? </p>
-      <p class="right author"> - Марина С. </p>
-    </div>
 
-    --->
+    {% for item in page.testimonials %}
+        <div class="slider-item">
+          <p>{{item.text}}</p>
+          <p class="right author">{{item.author}}</p>
+        </div>
+      {% endfor %}
+
 </div>
 </div>
 </section>
@@ -227,9 +211,8 @@ title: Мария Евдокимова Стилист И Трендвотчер
         <img class="about-img relative" src="/images/look1.jpg">
     </div>
     <div class="col-5_md-6_sm-12-middle padded" data-aos="fade-up">
-        <div class="margin-b-2">
-          <p class="margin-t-1"> Если вы хотите узнать больше об услугах персонального стилиста или зарезервировать сессию со мной, пожалуйста, заполните форму ниже.
-          </p>
+        <div class="margin-b-2 editable">
+          <p class="margin-t-1"> Если вы хотите узнать больше об услугах персонального стилиста или зарезервировать сессию со мной, пожалуйста, заполните форму ниже.</p>
          </br>
          <p> 
            <strong>Email: </strong>
