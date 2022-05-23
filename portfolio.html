@@ -3,7 +3,6 @@ layout: default
 title: Портфолио Марии Евдокимовой
 main-name: Портфолио.
 portfolio_image: /images/maria-stylist.jpg
-text: Мне посчастливилось работать со многими невероятными брендами, рассказывая их уникальную историю. Я обожаю творчество и индивидуальность каждого, у меня нет одного определенного стиля, если у вас есть свое видение, давайте работать вместе, чтобы создать что-то уникальное.
 portfolio:
  - project-link: /projects/vostok
    project_image: /images/art-3.jpg
@@ -62,7 +61,7 @@ portfolio:
 <!--- Cards---->
 <section class="grid-spaceBetween padded flex-flip-sm">
     <div class="col-8_sm-12">
-        <div class="grid mob-horizontal-scroll" data-aos="fade-up" data-aos-duration="2000">
+        <div class="grid-center mob-horizontal-scroll" data-aos="fade-up" data-aos-duration="2000">
 
           {% for item in page.portfolio %}
             <a class="col-4_md-6_sm-10 padded-1 portfolio-item" href="{{item.project-link}}">
@@ -76,7 +75,7 @@ portfolio:
     </div>
     <div class="col-3_sm-12-top border-left sticky-top">
         <div class="sticky-top padded-2">
-            <p> {{page.text}}</p>
+            <p>Мне посчастливилось работать со многими невероятными брендами, рассказывая их уникальную историю. Я обожаю творчество и индивидуальность каждого, у меня нет одного определенного стиля, если у вас есть свое видение, давайте работать вместе, чтобы создать что-то уникальное.</p>
         </div>
     </div>
 </section>
