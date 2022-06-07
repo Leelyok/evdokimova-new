@@ -1,3 +1,10 @@
+/* NOTES  */
+
+:root {
+  --footer: #E6E0D0;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -104,7 +111,7 @@ img { max-width: 100%; }
 .bg-beige { background-color: #F5EFE8; }
 .bg-light2 { background-color: #f2efea }
 
-.bg-footer { background-color: #E6E0D0;}
+.bg-footer { background-color: var(--footer);}
 .bg-footer2 { background-color: #c7bec1;}
 .v-light-bg {  background-color: #f8f6f4;}
 
@@ -940,12 +947,12 @@ a.bg-image {
 
 .about-img {
   max-width: 85%;
-  box-shadow: -50px 45px #E4DECE;
+  box-shadow: -50px 45px var(--footer);
 }
 
 .about-img1 {
   max-width: 85%;
-  box-shadow: 50px -45px #E4DECE;
+  box-shadow: 50px -45px var(--footer);
 }
 
 .img-one {
@@ -1079,9 +1086,9 @@ form button {
 }
 
 .form-styled button {
-  border: 2px solid #e6e0d0;
+  border: 2px solid var(--footer);
   width: 100%;
-  background-color: #e6e0d0;
+  background-color: var(--footer);
   color: #696666;
   font-size: 1rem;
   letter-spacing: 0.05em;
